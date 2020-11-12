@@ -15,8 +15,8 @@ class PositiveStatement extends Component {
                                 <h3>Write something positive about you.</h3>
                             </header>
                             <label for="self-love-statement">I love...</label>
-                        <textarea name="self-love-statement" rows="15" minlength="200" required></textarea>    
-                    </section>
+                            <textarea name="self-love-statement" rows="15" minlength="200" required></textarea>    
+                        </section>
                         <button type='submit'>Submit</button>
                     </form>
                 </section>

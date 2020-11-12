@@ -10,9 +10,9 @@ class LandingPage extends Component {
                 </header>
                 <section>
                     <header>
-                    <h3>
-                        When You Are Ready
-                    </h3>
+                        <h3>
+                            When You Are Ready
+                        </h3>
                     </header>
                     <button>Login</button>
                     <button>Sign up</button>
