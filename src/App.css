@@ -1,38 +1,119 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif;
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  min-width: 320px;
+
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+header {
+  padding: 45px 15px;
+}
+
+section {
+  min-height: 200px;
+  padding: 30px 15px;
+  background-color: #bbb;
+  padding: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-weight: 700;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form {
+  margin: 0 auto;
+  padding: 0 0 40px;
+  max-width: 650px;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+label p {
+  margin: 6px 0 23px;
+} 
+
+label {
+  display: block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-section {
+  margin-bottom: 30px;
+}
+
+.button-section {
+  padding: 0 0 0 15px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+}
+
+label p {
+  margin: 6px 0 23px;
+}
+
+form {
+  text-align: left;
+}
+
+label {
+  display: block;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.button-section {
+  padding: 0 0 0 15px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+}
+
+button {
+  margin-bottom: 50px;
+}
+
+.form-section {
+  margin-bottom: 30px;
+}
+
+.button-section {
+  padding: 0 0 0 15px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
 }
